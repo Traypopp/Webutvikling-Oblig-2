@@ -134,11 +134,15 @@ table, th {
 	text-align: left;
 	border: 2px solid black;
 	border-collapse: collapse;
-	margin: 5px;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin: auto;
 	text-decoration: none;
 	padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: lightgrey;
 }
 table th>a {
 	text-decoration: none;
