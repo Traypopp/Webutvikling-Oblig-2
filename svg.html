@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Oblig 2 - Webutvikling</title>
+		<meta charset="UTF-8" />
+
+		<link rel="stylesheet" type="text/css" href="./stiler/stilark.css">
+		<script src="https://use.fontawesome.com/22eadc22ef.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1>Oblig 2 - Webutvikling</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Hjem</a></li>
+					<li><a href=""><i class="fa fa-percent" aria-hidden="true"></i> MathML</a></li>
+					<li><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> SVG</a></li>
+					<li><a href=""><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+					<li><a href="omsiden.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Omsiden</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="wrapper">
+
+			<main>
+				<article>
+					<h2>SVG</h2>
+					<p>
+						Scalable Vector Graphics, eller SVG, er et vektor basert grafikk tegne verktøy for HTML sider. Den bruker vektorer og ikke pixeler for å skape bilder, så når det skalerer og endrer størelse, så mister bildet ikke kvalitet eller blir blured. Når man forstørrer eller bruker zoom på siden så vil noe skapet av svg beholde kvaliteten in. 
+					</p>
+					<p>
+						I artikklen under så er det et svg bildet med noen sirkler en mindre inne i den andre, uannsett hvordan du zoomer inn eller skalerer siden så vil den beholde kvaliteten sin.
+					</p>
+				</article>
+				<article>
+					<svg height="100" width="100"> <!--En figur med sirkler laget med SVG-->
+						<circle cx="50" cy="50" r="40" stroke="black" stroke-width="5" fill="darkorange" />
+						<circle cx="50" cy="50" r="20" stroke="black" stroke-width="5" fill="red" />
+						<circle cx="20" cy="50" r="5" stroke="black" stroke-width="5" fill="darkorange" />
+						<circle cx="80" cy="50" r="5" stroke="black" stroke-width="5" fill="darkorange" />
+						<circle cx="50" cy="30" r="5" stroke="black" stroke-width="5" fill="green" />
+					</svg>
+				</article>
+			</main>
+		</div>
+		<footer>
+			<p>En side laget av Thor Michael <a href="omsiden.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Om denne siden</a></p>
+		</footer>
+	</body>
+</html>

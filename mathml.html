@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Oblig 2 - Webutvikling</title>
+		<meta charset="UTF-8" />
+
+		<link rel="stylesheet" type="text/css" href="./stiler/stilark.css">
+		<script src="https://use.fontawesome.com/22eadc22ef.js"></script> <!--FontAwesome Ikon Font-->
+		<script src="https://fred-wang.github.io/mathjax.js/mpadded-min.js"></script> <!--MathML-->
+
+	</head>
+
+	<body>
+		<header>
+			<h1>Oblig 2 - Webutvikling</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Hjem</a></li>
+					<li><a href=""><i class="fa fa-percent" aria-hidden="true"></i> MathML</a></li>
+					<li><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> SVG</a></li>
+					<li><a href=""><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+					<li><a href="omsiden.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Omsiden</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="wrapper">
+
+			<main>
+				<article>
+					<h2>MathML</h2>
+					<p>
+						Mathematical Markup Language, eller MathML, er et mattematisk markeringsspråk som brukes til å vise formler og utregninger i en HTML side på en måte som er lesbart for mennesker og semantisk.
+					</p>
+					<p>
+						MathML er viktig siden HTML ikke har en måte å skrive ut mattemaske regnestykker eller ligniner, så de fleste sider har før brukt bilder til å vise disse. Men med MathML så kan vi skrive det ut på en måte slik at maskinen kan forstå at det er et matte stykke, og det da er mulig å tilpasse siden til det innholdet. Slik blir det mulig for de som benytter seg av tekstopplesning eller tilpassende verkty, kan få den informasjonen ut av det. 
+					</p>
+				</article>
+				<article>
+					<h2>Area of a circle</h2>
+					<p>
+					 <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+					        <mi>&#x03C0;<!-- p --></mi>
+					        <mo>&#x2062;<!-- &InvisibleTimes; --></mo>
+					        <msup>
+					          <mi>r</mi>
+					          <mn>2</mn>
+					        </msup>
+					</math>
+					</p>
+				</article>
+				<article> <!--Hele denne article Taggen er et eksempel på MathML tatt fra -->
+					<h2>Quadratic Equation</h2>
+					<p>
+					<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+					<mrow>
+					  <mrow>
+					    <msup>
+					      <mi>x</mi>
+					      <mn>2</mn>
+					    </msup>
+					    <mo>+</mo>
+					    <mrow>
+					      <mn>4</mn>
+					      <mo>&InvisibleTimes;</mo>
+					      <mi>x</mi>
+					    </mrow>
+					    <mo>+</mo>
+					    <mn>4</mn>
+					  </mrow>
+					  <mo>=</mo>
+					  <mn>0</mn>
+					</mrow>
+					</math>
+					</p>
+				</article>
+				<article>
+					<h2>Quadratic Formula</h2>
+					<p>
+					<math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+					<mrow>
+					  <mi>x</mi>
+					  <mo>=</mo>
+					  <mfrac>
+					    <mrow>
+					      <mrow>
+					        <mo>-</mo>
+					        <mi>b</mi>
+					      </mrow>
+					      <mo>&PlusMinus;</mo>
+					      <msqrt>
+					        <mrow>
+					          <msup>
+					            <mi>b</mi>
+					            <mn>2</mn>
+					          </msup>
+					          <mo>-</mo>
+					          <mrow>
+					            <mn>4</mn>
+					            <mo>&InvisibleTimes;</mo>
+					            <mi>a</mi>
+					            <mo>&InvisibleTimes;</mo>
+					            <mi>c</mi>
+					          </mrow>
+					        </mrow>
+					      </msqrt>
+					    </mrow>
+					    <mrow>
+					      <mn>2</mn>
+					      <mo>&InvisibleTimes;</mo>
+					      <mi>a</mi>
+					    </mrow>
+					  </mfrac>
+					</mrow>
+					</math>
+					</p>
+				</article>
+			</main>
+		</div>
+		<footer>
+			<p>En side laget av Thor Michael <a href="omsiden.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Om denne siden</a></p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,179 @@
+@import url("normalize.css");
+
+/* box-sizing fix */
+body * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+header, main, footer, nav, article, aside, div {
+	display: block;
+	overflow: hidden;
+}
+
+/*Struktur */
+#wrapper {
+	width: 100%;
+	max-width: 800px;
+	margin: 20px auto;
+	min-height: 100%;
+}
+
+.btn_readMore {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	border: solid 4px black;
+	float: right;
+	font-family: roboto;
+	margin: 5px;
+}
+.btn_readMore:hover {
+		background-color: white;
+}
+
+.txt_withImg {
+	width: calc(50% - 15px);
+	float: left;
+	margin: 10px;
+}
+.img {
+	float: right;
+}
+
+body {
+	background-image: url("../imgs/big_burg.jpg");
+	background-position: center;
+	/*background-color: #DFE7FF */
+}
+html, body {
+	height: 100%;
+}
+
+header {
+	width: 100%;
+	background: #F6AB55;
+	padding-left: 10px;
+	font-family: germania;
+	font-size: 20px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px;
+	border-bottom-width: 10px;
+}
+
+nav {
+	float: left;
+	width: auto;
+	margin-left: 20px;
+	margin-bottom: 2px;
+	border: 5px;
+}
+
+nav ul {
+	background-color: #F6AB55;
+	padding-bottom: 10px;
+	line-height: 23px;
+}
+nav ul>li {
+	list-style-type: none;
+	float: left;
+}
+nav ul>li>a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+main {
+	float: right;
+	width: 100%;
+}
+main article>h1 {
+	padding-left: 10px;
+	font-family: germania;
+	font-size: 25px;
+}
+main article>h2 {
+	padding-left: 10px;
+	font-family: germania;
+	font-size: 25px;
+}
+main article>h3 {
+	padding-left: 10px;
+	font-family: germania;
+	font-size: 20px;
+}
+main article>p {
+	padding: 5px;
+	font-family: roboto;
+	font-size: 16px;
+	float: left;
+	opacity: 1;
+}
+article {
+	width: calc(100% / 1);
+	background-color: rgba(246, 171, 85, 0.86);
+	margin-top: 10px;
+	border-style: solid;
+	border-radius: 2px;
+	border-color: black;
+}
+article img {
+	width: calc(50% - 15px);
+	float: right;
+	padding: 15px;
+}
+
+table, th {
+	text-align: left;
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: 5px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-decoration: none;
+	padding: 5px;
+}
+table th>a {
+	text-decoration: none;
+}
+
+svg {
+	display: block;
+	margin: auto;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+footer {
+	width: 100%;
+	font-family: roboto;
+	font-size: 16px;
+	background-color: #F6AB55;
+	margin-top: 10px;
+	padding-left: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 2px;
+	border-bottom: 0px;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+}
+
+@font-face {
+	font-family: germania;
+	src: url(../fonts/germania.ttf);
+}
+@font-face {
+	font-family: roboto;
+	src: url(../fonts/roboto.ttf);
+}
